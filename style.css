@@ -235,3 +235,10 @@ footer{
         font-size: 21px;
     }
 }
+
+/* for 400px and smaller */
+@media screen and (max-width: 400px){
+    nav > #right-nav > a{
+        padding: 5px 5px;
+    }
+}
