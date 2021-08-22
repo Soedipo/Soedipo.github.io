@@ -224,19 +224,14 @@ footer{
         text-align: center;
     }
 
+    nav > #right-nav > a{
+        float: unset;
+    }
 }
 
 /* for 500px and smaller */
 @media screen and (max-width: 500px){
-    nav{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        text-align: center;
-    }
-
     nav > #right-nav > a{
-        float: unset;
         font-size: 21px;
     }
 }
