@@ -215,8 +215,8 @@ footer{
 }
 
 /* RESPONSIVE TRY */
-/* for 500px and smaller */
-@media screen and (max-width: 500px){
+/* for 510px and smaller */
+@media screen and (max-width: 510px){
     nav{
         display: flex;
         flex-direction: column;
