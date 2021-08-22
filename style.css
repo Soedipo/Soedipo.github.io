@@ -215,8 +215,19 @@ footer{
 }
 
 /* RESPONSIVE TRY */
-/* for 515px and smaller */
-@media screen and (max-width: 515px){
+/* for 550px and smaller */
+@media screen and (max-width: 550px){
+    nav{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+    }
+
+}
+
+/* for 500px and smaller */
+@media screen and (max-width: 500px){
     nav{
         display: flex;
         flex-direction: column;
@@ -226,7 +237,6 @@ footer{
 
     nav > #right-nav > a{
         float: unset;
-        padding: 5px 1px;
-        font-size: 20px;
+        font-size: 21px;
     }
 }
